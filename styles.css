@@ -79,3 +79,26 @@ nav {
     text-align: center;
 }
 
+.testimonials, .objections, .cta {
+    padding: 2rem 5%;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* Responsiveness */
+@media screen and (max-width: 768px) {
+    .value-proposition {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+}
