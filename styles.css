@@ -37,13 +37,14 @@ nav {
 }
 
 .hero {
-    background-image: url('path_to_your_image.jpg');
+    background-image: url('background.jpg'); /* Replace with your image path */
     background-size: cover;
     background-position: center;
     height: 100vh;
     color: white;
     text-align: center;
     padding-top: 10%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Black shadow for text */
 }
 
 .cta-button {
@@ -78,6 +79,7 @@ nav {
 
 .testimonials, .objections, .cta {
     padding: 2rem 5%;
+    text-align: center;
 }
 
 footer {
@@ -85,4 +87,16 @@ footer {
     color: white;
     text-align: center;
     padding: 1rem 0;
+}
+
+/* Responsiveness */
+@media screen and (max-width: 768px) {
+    .value-proposition {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 80%;
+        margin-bottom: 20px;
+    }
 }
