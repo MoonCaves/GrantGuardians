@@ -4,69 +4,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GrantGuardians - Unlock Funding Opportunities</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>GrantGuardians</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .hero {
+            text-align: center;
+            padding: 60px 0;
+        }
+
+        .hero h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        .cta {
+            display: inline-block;
+            background-color: #007BFF;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .cta:hover {
+            background-color: #0056b3;
+        }
+
+        .features {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 40px;
+        }
+
+        .feature {
+            flex: 1;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+        }
+
+        .feature-icon {
+            font-size: 40px;
+            margin-bottom: 20px;
+            color: #007BFF;
+        }
+    </style>
 </head>
 
 <body>
-    <!-- Navigation Bar -->
-    <nav>
-        <div class="logo">GrantGuardians</div>
-        <ul class="nav-links">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-
-    <!-- Hero Section -->
-    <section class="hero" id="home">
-        <h1>Unlock Funding Opportunities</h1>
-        <p>Discover the secret to securing grants effortlessly. Limited slots available!</p>
-        <button class="cta-button">Secure Your Spot Now</button>
-    </section>
-
-    <!-- Value Proposition -->
-    <section class="value-proposition" id="services">
-        <div class="card">
-            <img src="icon1.png" alt="Dream Outcome">
-            <h3>Dream Outcome</h3>
-            <p>Achieve your project's full potential with the right funding.</p>
+    <div class="container">
+        <div class="hero">
+            <h1>Welcome to GrantGuardians</h1>
+            <p>Your trusted partner in securing grants for your organization.</p>
+            <a href="#" class="cta">Learn More</a>
         </div>
-        <!-- Repeat for other value propositions -->
-    </section>
-
-    <!-- Testimonials Carousel -->
-    <section class="testimonials" id="about">
-        <div class="testimonial">
-            <p>"This is a testimonial..."</p>
-            <cite>- Person Name</cite>
+        <div class="features">
+            <div class="feature">
+                <div class="feature-icon"><i class="fas fa-shield-alt"></i></div>
+                <h2>Trust</h2>
+                <p>We ensure the security and confidentiality of your data.</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon"><i class="fas fa-dollar-sign"></i></div>
+                <h2>Success</h2>
+                <p>Our track record speaks for itself. We've secured millions in grants.</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon"><i class="fas fa-clock"></i></div>
+                <h2>Efficiency</h2>
+                <p>Fast and efficient service, ensuring you get results when you need them.</p>
+            </div>
         </div>
-        <!-- Repeat for other testimonials -->
-    </section>
-
-    <!-- Addressing Objections -->
-    <section class="objections" id="contact">
-        <h2>Why Trust GrantGuardians?</h2>
-        <ul>
-            <li><strong>Trust:</strong> Decades of combined experience in the grant domain.</li>
-            <!-- Repeat for other objections -->
-        </ul>
-    </section>
-
-    <!-- Call to Action -->
-    <section class="cta">
-        <h2>Ready to Secure Your Grant?</h2>
-        <p>Join the many organizations that have trusted GrantGuardians to unlock their funding potential.</p>
-        <button class="cta-button">Get Started Today</button>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2023 GrantGuardians, Austin, Texas. All rights reserved.</p>
-    </footer>
-    <script src="scripts.js"></script>
+    </div>
 </body>
 
 </html>
