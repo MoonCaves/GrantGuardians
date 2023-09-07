@@ -5,20 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GrantGuardians</title>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">    <style>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-image: url('background.jpg');
+            background-attachment: fixed;
+            background-size: cover;
+            color: #fff;
         }
 
         .container {
             max-width: 1200px;
             margin: 0 auto;
             padding: 20px;
-            background-color: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background-color: rgba(0, 0, 0, 0.7);
         }
 
         .hero {
@@ -55,7 +58,8 @@
             flex: 1;
             padding: 20px;
             text-align: center;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
             margin: 10px;
         }
 
@@ -64,6 +68,20 @@
             margin-bottom: 20px;
             color: #007BFF;
         }
+
+        .testimonial {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .testimonial p {
+            font-style: italic;
+        }
+
+        .testimonial-author {
+            margin-top: 10px;
+            font-weight: bold;
+        }
     </style>
 </head>
 
@@ -71,7 +89,7 @@
     <div class="container">
         <div class="hero">
             <h1>Welcome to GrantGuardians</h1>
-            <p>Your trusted partner in securing grants for your organization.</p>
+            <p>Your trusted partner in securing grants for your organization. We handle all the work, making the process seamless and efficient for you.</p>
             <a href="#" class="cta">Learn More</a>
         </div>
         <div class="features">
@@ -90,6 +108,10 @@
                 <h2>Efficiency</h2>
                 <p>Fast and efficient service, ensuring you get results when you need them.</p>
             </div>
+        </div>
+        <div class="testimonial">
+            <p>"GrantGuardians transformed our funding process. Their expertise and efficiency made all the difference!"</p>
+            <div class="testimonial-author">- Happy Client</div>
         </div>
     </div>
 </body>
