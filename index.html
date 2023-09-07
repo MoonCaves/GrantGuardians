@@ -1,119 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GrantGuardians</title>
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <title>GrantGuardians - Your Path to Funding</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
             background-image: url('background.jpg');
             background-attachment: fixed;
             background-size: cover;
-            color: #fff;
+            color: white;
+            text-shadow: 2px 2px 4px #000000;
         }
-
         .container {
             max-width: 1200px;
             margin: 0 auto;
             padding: 20px;
-            background-color: rgba(0, 0, 0, 0.7);
         }
-
-        .hero {
+        h1, h2, h3 {
             text-align: center;
-            padding: 60px 0;
         }
-
-        .hero h1 {
-            font-size: 2.5em;
-            margin-bottom: 20px;
-        }
-
         .cta {
-            display: inline-block;
-            background-color: #007BFF;
-            color: #fff;
-            padding: 10px 20px;
+            display: block;
+            width: 200px;
+            height: 50px;
+            margin: 20px auto;
+            background-color: #FF4500;
+            text-align: center;
+            border-radius: 10px;
+            color: white;
+            font-weight: bold;
+            line-height: 50px;
             text-decoration: none;
-            border-radius: 5px;
-            transition: background-color 0.3s;
         }
-
         .cta:hover {
-            background-color: #0056b3;
+            background-color: #FF6347;
         }
-
-        .features {
+        .benefits {
             display: flex;
             justify-content: space-between;
-            margin-top: 40px;
         }
-
-        .feature {
+        .benefit-item {
             flex: 1;
-            padding: 20px;
-            text-align: center;
-            background-color: rgba(255, 255, 255, 0.1);
-            border-radius: 10px;
             margin: 10px;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
         }
-
-        .feature-icon {
-            font-size: 40px;
-            margin-bottom: 20px;
-            color: #007BFF;
+        .testimonials {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 10px;
         }
-
-        .testimonial {
-            text-align: center;
-            margin-top: 50px;
-        }
-
-        .testimonial p {
-            font-style: italic;
-        }
-
-        .testimonial-author {
-            margin-top: 10px;
-            font-weight: bold;
+        .testimonial-item {
+            margin: 20px 0;
         }
     </style>
 </head>
-
 <body>
     <div class="container">
-        <div class="hero">
-            <h1>Welcome to GrantGuardians</h1>
-            <p>Your trusted partner in securing grants for your organization. We handle all the work, making the process seamless and efficient for you.</p>
-            <a href="#" class="cta">Learn More</a>
-        </div>
-        <div class="features">
-            <div class="feature">
-                <div class="feature-icon"><i class="fas fa-shield-alt"></i></div>
-                <h2>Trust</h2>
-                <p>We ensure the security and confidentiality of your data.</p>
+        <!-- Header Section -->
+        <h1>Unlock Funding Opportunities with GrantGuardians</h1>
+        <h2>We simplify the grant process, ensuring you get the funding you deserve.</h2>
+        <a href="#" class="cta">Get Started</a>
+
+        <!-- Benefits Section -->
+        <div class="benefits">
+            <div class="benefit-item">
+                <h3>Expertise</h3>
+                <p>Our team of grant writers has a proven track record of securing funds for various causes.</p>
             </div>
-            <div class="feature">
-                <div class="feature-icon"><i class="fas fa-dollar-sign"></i></div>
-                <h2>Success</h2>
-                <p>Our track record speaks for itself. We've secured millions in grants.</p>
+            <div class="benefit-item">
+                <h3>Efficiency</h3>
+                <p>We streamline the application process, saving you time and increasing your chances of success.</p>
             </div>
-            <div class="feature">
-                <div class="feature-icon"><i class="fas fa-clock"></i></div>
-                <h2>Efficiency</h2>
-                <p>Fast and efficient service, ensuring you get results when you need them.</p>
+            <div class="benefit-item">
+                <h3>Results</h3>
+                <p>Our clients have secured millions in funding, enabling them to make a bigger impact.</p>
             </div>
         </div>
-        <div class="testimonial">
-            <p>"GrantGuardians transformed our funding process. Their expertise and efficiency made all the difference!"</p>
-            <div class="testimonial-author">- Happy Client</div>
+
+        <!-- Testimonials Section -->
+        <div class="testimonials">
+            <h2>What Our Clients Say</h2>
+            <div class="testimonial-item">
+                <p>"GrantGuardians helped our non-profit secure a six-figure grant. Their expertise and guidance were invaluable."</p>
+                <p>- Jane Doe, Charity ABC</p>
+            </div>
+            <div class="testimonial-item">
+                <p>"We were struggling to navigate the grant application process. GrantGuardians made it easy and we received funding in record time."</p>
+                <p>- John Smith, Organization XYZ</p>
+            </div>
         </div>
+
+        <!-- Call to Action -->
+        <a href="#" class="cta">Schedule a Consultation</a>
     </div>
 </body>
-
 </html>
